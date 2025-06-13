@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bfc35ed67b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="output.css">
+    <title>Scrible Sense</title>
+
+    <script>
+        alert('welcome To the Scrible Sense')
+    </script>
+</head>
+
+<body class="dark:bg-slate-900 bg-[#f1fada]
+
+  ">
+
+    <!-- Navbar Started -->
+
+    <nav>
+        <div class="bg-[#265073] flex justify-between px-4 items-center md:px-6 w-full">
+            <div class="flex items-center ">
+                <img class="mx-auto size-16 p-2 overflow-hidden" src="/Clone/Assest/icon.png" alt="">
+                <div class="text-xl dark:text-[#f1fada] text-[#ffffff] font-bold">Scrible Sense</div>
+            </div>
+            <ul class="hidden md:flex ">
+                <li class="mx-7 font-medium dark:text-[#f1fada] text-[#9ad0c2] cursor-pointer">Home</li>
+                <li class="mx-7 font-medium  dark:text-[#f1fada] text-[#9ad0c2] cursor-pointer">About Us</li>
+                <li class="mx-7 font-medium  dark:text-[#f1fada] text-[#9ad0c2] cursor-pointer">Contact US</li>
+            </ul>
+            <div
+                class="hidden md:block p-2 m-2 rounded-lg bg-[#075f6f] font-medium  dark:text-[#f1fada] text-[#9ad0c2] cursor-pointer dark:hover:bg-white  dark:hover:text-black hover:scale-[1.1] hover:transform duration-700 hover:bg-black hover:text-white">
+                Login/Signup</div>
+
+            <div
+                class="dark:text-[#f1fada] text-[#ffffff] p-2 cursor-pointer dark:hover:bg-white  dark:hover:text-black hover:text-white hover:bg-black hover:scale-150 hover:transform duration-700 md:hidden">
+                <i class="fa-solid fa-list"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar ends here -->
+    <main class="scroll-smooth content">
+        <div class=" dark:text-[#f1fada] text-[#265073] pb-8 px-8 ">
+            <div class="md:text-center pt-20 pb-6">
+                <p class="font-bold text-4xl">Advancing Handwriting Recognition for a Digital Tomorrow</p>
+            </div>
+            <div class="font-normal text-xl text-justify  md:text-center md:px-16 ">Our project employs deep learning
+                models to precisely
+                analyze and convert handwritten text from images,
+                offering a versatile solution for digitalizing diverse handwritten content effortlessly.
+
+            </div>
+        </div>
+
+        <!-- <div class="flex items-center justify-center">
+            <div class="h-64 bg-slate-600 w-96 text-center">
+                <input class=" " type="file" name="Drag" placeholder="Upload You Document" id="">
+                <p>Drag and Drop or click here
+                </p>
+                <p>to upload image</p>
+            </div>
+        </div> -->
+
+        <div class="card flex items-center justify-center ">
+            <label
+                class="md:h-[20rem] md:w-[30rem] p-5   dark:bg-[#f1fada] bg-[#265073] h-48 w-64 text-center rounded-xl cursor-pointer"
+                for="imageInput" id="drop-area">
+                <input type="file" accept="image/*" id="imageInput" hidden>
+                <div id="img-view"
+                    class=" flex items-center justify-center flex-col w-full h-full dark:border-slate-900 border-[#f1fada] border-[2px] border-dashed ">
+                    <div class=""><i class="dark:text-black text-white fa-solid fa-cloud-arrow-up"></i></div>
+                    <p class="dark:text-black text-white">Drag and Drop or click here<br>to upload image</p>
+                </div>
+            </label>
+
+        </div>
+        <div>
+            <input
+                class="bg-[#265073]  grid  place-content-center mx-auto mt-10 h-14 w-32 font-semibold  text-xl rounded-xl  dark:text-[#f1fada] text-[#ffffff] hover:text-black hover:bg-[#f1fada] hover:scale-110 hover:transform duration-700"
+                type="button" value="Upload">
+
+        </div>
+
+        <div class="p-8">
+            <p class="dark:text-[#f1fada] text-[#265073] font-bold text-4xl">Result</p>
+        </div>
+
+        <hr class="dark:bg-slate-300 bg-[#384154] h-[2px]">
+
+        <section class="dark:text-[#f1fada] text-[#265073] p-8">
+            <h1 class=" text-4xl font-bold md:text-center pb-10">How It Works</h1>
+            <div class="font-normal text-xl text-justify md:text-center md:px-20">Our project employs deep learning
+                models to precisely
+                analyze and convert handwritten text from images,
+                offering a versatile solution for digitalizing diverse handwritten content effortlessly.</div>
+        </section>
+
+
+        <section class="dark:bg-[#265073] bg-[#f1fada] dark:text-[#f1fada] text-[#265073] px-8">
+            <h3 class="dark:text-[#f1fada] text-[#265073] font-bold text-4xl  pt-10">Steps</h3>
+            <div class="px-5  flex md:flex-row   justify-between flex-col">
+                <div class="md:w-[35%] w-auto">
+                    <h3 class="font-bold text-2xl my-5 ">STEP 1</h3>
+
+                    <h4 class="my-5 font-bold text-2xl">Upload Your Image</h4>
+                    <p class="md:text-justify tracking-wide text-lg">Select or drop the files using the 'Upload File'
+                        button. It can be a scanned/non-scanned image
+                        file. Once uploaded the software would take a few seconds to process the file. After getting
+                        processed, move forward to the next step.</p>
+                </div>
+                <img class="md:w-[40%] " src="/Clone/Assest/Image upload-pana.svg" alt="">
+            </div>
+            <div class="px-5 flex md:flex-row items-center justify-between flex-col-reverse">
+                <img class="md:w-[40%] " src="/Clone/Assest/Designer-amico.svg" alt="">
+                <div class="md:w-[35%] w-auto">
+                    <h3 class="font-bold text-2xl my-5 ">STEP 2</h3>
+                    <h4 class="font-bold text-2xl my-5 ">Edit & Review</h4>
+                    <p class="md:text-justifytracking-wide text-lg">Once the document is processed, the software would
+                        take you to the review
+                        screen. In the review
+                        screen, you can see the extracted text at the left panel of your screen. If you find an issue
+                        with the extracted data, you can correct and fix it right there.</p>
+                </div>
+            </div>
+            <div class="px-5 flex md:flex-row items-center justify-between flex-col">
+                <div class="md:w-[35%] w-auto">
+                    <h3 class="font-bold text-2xl my-5 ">STEP 3</h3>
+                    <h4 class="font-bold text-2xl my-5 ">Convert & Download</h4>
+                    <p class="md:text-justify tracking-wide text-lg">Once the document is processed, the software would
+                        take you to the review
+                        screen. In the review
+                        screen, you can see the extracted text at the left panel of your screen. If you find an issue
+                        with the extracted data, you can correct and fix it right there.</p>
+                </div>
+                <img class="md:w-[40%]  " src="/Clone/Assest/Download-amico.svg" alt="">
+            </div>
+        </section>
+
+        <section class="dark:bg-[#265073] bg-[#f1fada]  dark:text-[#f1fada] text-[#265073] px-8 pt-5 ">
+            <h1 class=" font-bold text-4xl text-center">Welcome to Scribble Sense</h1>
+            <div class="md:text-justify tracking-wide text-lg mt-3">At Scribble Sense, we are passionate about
+                transforming the way the world interacts with handwritten content through cutting-edge Optical Character
+                Recognition (OCR) technology. Our journey began with a vision to bridge the gap between traditional
+                pen-and-paper methods and the digital age, making handwritten text easily accessible and searchable.
+            </div>
+        </section>
+        <section class="dark:bg-[#265073] bg-[#f1fada]  dark:text-[#f1fada] text-[#265073] px-8 pt-7">
+            <h1 class=" font-bold text-4xl text-center">Our Mission</h1>
+            <div class="md:text-justify tracking-wide text-lg mt-3">At Scribble Sense, we are dedicated to delivering
+                precision and innovation in OCR technology. Our mission is clear: to provide accurate, efficient, and
+                innovative OCR solutions. We aim to elevate productivity, optimize processes, and unleash the complete
+                potential of handwritten information within the dynamic framework of today's digital landscape.
+            </div>
+        </section>
+        <section class="dark:bg-[#265073] bg-[#f1fada]  dark:text-[#f1fada] text-[#265073] px-8 pt-10  ">
+            <h1 class=" font-bold text-4xl text-center">Our Values</h1>
+            <div class="md:text-justify tracking-wide text-lg mt-3">Precision: We believe in delivering OCR solutions
+                with the utmost precision to ensure our users can trust the accuracy of their digitized content.
+
+                <br>
+                <p class="pt-4"> Accessibility: Making handwritten text accessible to everyone is at the core of our
+                    values. We aim to
+                    break down barriers and facilitate seamless integration of handwritten content into digital
+                    workflows.
+                </p>
+
+                <p class="pt-4">Integrity: Trust is the foundation of our relationships—with our team, our clients, and
+                    our community.
+                    We operate with transparency, honesty, and a commitment to ethical business practices.</p>
+            </div>
+        </section>
+        <section class="dark:bg-[#265073] bg-[#f1fada]  dark:text-[#f1fada] text-[#265073] px-8 pt-10 pb-20">
+            <h1 class=" font-bold text-sm text-right">Thank you for choosing Scribble Sense.</h1>
+        </section>
+
+        <footer>
+            <div class="dark:bg-slate-900 bg-[#070707] h-20 flex items-center justify-center">
+                <p class="text-[#9ad0c2] text-lg">© 2025 Scribble Sense</p>
+
+            </div>
+        </footer>
+
+    </main>
+
+
+</body>
+
+</html>
